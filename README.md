@@ -43,7 +43,7 @@ Runtime and the osu! installer all get downloaded.
 ## Installing with the script
 
 ```bash
-git clone https://github.com/<you>/osu-nixello.git
+git clone https://github.com/pxradiso/osu-nixello.git
 cd osu-nixello
 ./install.sh
 ```
