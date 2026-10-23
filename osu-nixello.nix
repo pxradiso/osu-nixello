@@ -36,7 +36,7 @@ let
     steam_run="/run/current-system/sw/bin/steam-run"
 
     if [ ! -x "$steam_run" ]; then
-      echo "osu!nixello: steam-run not found. Enable Steam first:" >&2
+      echo "osu-nixello: steam-run not found. Enable Steam first:" >&2
       echo "" >&2
       echo "    { programs.steam.enable = true; }" >&2
       echo "" >&2

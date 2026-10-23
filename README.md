@@ -1,6 +1,6 @@
-# osu!nixello
+# osu-nixello
 
-osu!nixello is the NixOS-specific version of
+osu-nixello is the NixOS-specific version of
 [osu-winello](https://github.com/NelloKudo/osu-winello): the same installer and
 launcher, adapted to run on NixOS. It handles the parts osu-winello expects
 from an FHS distro (wine-osu, the Steam Runtime, yawl) without patching
@@ -202,7 +202,7 @@ up the host sound server through `PULSE_SERVER` from inside the FHS container.
 
 Not every bug belongs in the same place:
 
-- **It's osu!nixello.** The installer, the module, the wrappers, a path that
+- **It's osu-nixello.** The installer, the module, the wrappers, a path that
   should exist on NixOS but doesn't: open an issue here, where the NixOS side
   is maintained: <https://github.com/pxradiso/osu-nixello/issues>
 - **It's osu-winello.** The launcher, wine-osu, yawl, an option that misbehaves
