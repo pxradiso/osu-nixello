@@ -198,6 +198,22 @@ up the host sound server through `PULSE_SERVER` from inside the FHS container.
 
 ---
 
+## Reporting a problem
+
+Not every bug belongs in the same place:
+
+- **It's osu!nixello.** The installer, the module, the wrappers, a path that
+  should exist on NixOS but doesn't: open an issue here, where the NixOS side
+  is maintained: <https://github.com/pxradiso/osu-nixello/issues>
+- **It's osu-winello.** The launcher, wine-osu, yawl, an option that misbehaves
+  on other distros too: report it upstream, where the people who write that
+  code can actually fix it: <https://github.com/NelloKudo/osu-winello/issues>
+
+If you're not sure which one it is, open it here and say what you did and what
+happened. Moving an issue later is easy; a report that never gets filed isn't.
+
+---
+
 ## Uninstalling
 
 ```bash
