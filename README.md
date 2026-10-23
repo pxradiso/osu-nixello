@@ -7,6 +7,8 @@ from an FHS distro (wine-osu, the Steam Runtime, yawl) without patching
 anything upstream, so the built-in updater keeps working like it does on every
 other distro.
 
+![osu! running on NixOS](assets/nixos.png)
+
 There are two ways to get there:
 
 - **`install.sh`** does everything in one pass and touches nothing in
